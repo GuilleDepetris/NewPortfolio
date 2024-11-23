@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="" class="logo">Portfolio</a>
+      <i class="bx bx-menu" id="menu-icon"></i>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <i class="bx bxs-sun" id="icon-sun" style="display: inline;"></i>
+    <i class="bx bxs-moon" id="icon-moon" style="display: none;"></i>
+    
+    <div id="flags" class="flags">
+      <div class="flags__item" data-language="es">
+        <img src="./images/es.png" alt="" class="imgEs">
+      </div>
+      <div class="flags__item" data-language="en">
+        <img src="./images/en.png" alt="" class="imgEn">
+      </div>
+    </div>
+    <!-- home section desing -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <div class="container-info">
+          <h3 data-section="home" data-value="saludo">Hola! Yo soy</h3>
+          <h1 data-section="home" data-value="nombre">Guillermo Depetris</h1>
+          <h3 data-section="home" data-value="And">Y soy <span>Full-Stack Developer</span></h3>
+          <p data-section="home" data-value="yo-soy">
+            Especialista en desarrollo web con tecnologías modernas, construyo soluciones digitales <br> eficientes y funcionales.
+          </p>
+          <a class="explora" href="#portfolio" data-section="home" data-value="explora" >¡Explora mi trabajo!</a><br>
+          <a href="./CV/GuilleDepetris-CV.pdf" download="GuilleDepetris-CV" class="btn btnDownload" data-section="home" data-value="value">Descargar CV</a>
+        </div>
+        <div class="home-img">
+          <img src="images/home.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <!-- about section -->
+    <section class="about" id="about">
+      <div class="about-content">
+        <h2 class="heading" data-section="About" data-value="titulo-about">Sobre <span>Mi</span></h2>
+        <h3 data-section="About" data-value="trabajo">Full-Stack Developer</h3>
+          <p data-section="About" data-value="descripcion">
+            ¡Hola! Soy Guillermo Depetris, tengo 22 años y soy graduado de la Universidad Tecnológica Nacional (UTN), donde estudié la Tecnicatura en Programación.  
+            Me destaco por mi habilidad para liderar proyectos, trabajar en equipo, aprender nuevas tecnologías rápidamente y desarrollar soluciones que cumplen con las necesidades del cliente.  
+            Fuera del código, disfruto explorar nuevas herramientas y metodologías que me permitan crecer tanto profesional como personalmente.
+          </p>
+        <a href="#" class="btn" data-section="About" data-value="value-btn">Leer Más</a>
+        <div class="social-media">
+          <a href="https://github.com/GuilleDepetris"><i class='bx bxl-github'></i></a>
+          <a href=""><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- services -->
+    <section class="services" id="services">
+      <h2 class="heading"> <span>Services</span></h2>
+      <div class="services-container">
+        <div class="services-box">
+          <i class="bx bx-code-alt"></i>
+          <h3>Web Development</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem,
+            quod minima iure odit minus magni enim maiores dolorum beatae
+            voluptates.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bxs-paint"></i>
+          <h3>Graphic Design</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem,
+            quod minima iure odit minus magni enim maiores dolorum beatae
+            voluptates.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="services-box">
+          <i class="bx bx-bar-chart-alt"></i>
+          <h3>Digital Marketing</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem,
+            quod minima iure odit minus magni enim maiores dolorum beatae
+            voluptates.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- portfolio  -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Proyect</span></h2>
+      <div class="portfolio-container">
+
+        <div class="portfolio-box">
+          <img src="images/portfolio1.jpg" alt="" />
+          <div class="portfolio-layer">
+            <h4>Web Desing</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae,
+              mollitia.
+            </p>
+            <a href="#"><i class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="images/portfolio2.jpg" alt="" />
+            <div class="portfolio-layer">
+              <h4>Web Desing</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae,
+                mollitia.
+              </p>
+              <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+          </div>
+
+          <div class="portfolio-box">
+            <img src="images/portfolio3.jpg" alt="" />
+            <div class="portfolio-layer">
+              <h4>Web Desing</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae,
+                mollitia.
+              </p>
+              <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+          </div>
+
+          <div class="portfolio-box">
+            <img src="images/portfolio4.jpg" alt="" />
+            <div class="portfolio-layer">
+              <h4>Web Desing</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae,
+                mollitia.
+              </p>
+              <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+          </div>
+
+          <div class="portfolio-box">
+            <img src="images/portfolio5.jpg" alt="" />
+            <div class="portfolio-layer">
+              <h4>Web Desing</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae,
+                mollitia.
+              </p>
+              <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+          </div>
+
+          <div class="portfolio-box">
+            <img src="images/portfolio6.jpg" alt="" />
+            <div class="portfolio-layer">
+              <h4>Web Desing</h4>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae,
+                mollitia.
+              </p>
+              <a href="#"><i class='bx bx-link-external'></i></a>
+            </div>
+          </div>
+
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by Codehal | All Rights reserved</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href=""><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
