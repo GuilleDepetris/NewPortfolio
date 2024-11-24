@@ -26,6 +26,7 @@
         "last-proyect-descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, mollitia."
     },
     "Contact": {
-        "titulo-Contact":"Contact <span>Me!</span>"
+        "titulo-Contact":"Contácta<span>me!</span>",
+        "mensaje": "Enviar"
     }
 }
