@@ -239,19 +239,17 @@ span {
 }
 @media (max-width: 1200px) {
     .tecnologias-container {
-        grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+        grid-template-columns: repeat(3, 1fr); 
     }
 }
 @media (max-width: 768px) {
     .tecnologias-container {
-        grid-template-columns: repeat(2, 1fr); /* 2 columnas */
+        grid-template-columns: repeat(2, 1fr); 
     }
 }
-
-/* Ajuste para pantallas muy pequeñas */
 @media (max-width: 480px) {
     .tecnologias-container {
-        grid-template-columns: 1fr; /* 1 columna */
+        grid-template-columns: 1fr; 
     }
 }
 .portfolio {
@@ -391,38 +389,33 @@ span {
     font-weight: 550;
     color: var(--main-color);
 }
-#icon-sun, #icon-moon {
+ .container-funciones {
     position: fixed;
-    bottom: 70px;
-    right: 70px;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    bottom: 30px;
+    right: 30px;
+    justify-content: space-between;
+    z-index: 101;
+ }
+ .flags {
+    display: flex;
+    gap: 10px;
+ }
+#icon-sun, #icon-moon {
     font-size: 45px;
     cursor: pointer;
+    margin: 10px;
 }
-.flags {
-    width: 75px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
+.flags__item { 
+    
 }
-.flags__item {
-    width: 30px;
-}
-.flags__item .imgEs{
-    z-index: 101;
-    position: fixed;
-    bottom: 65px;
-    right: 8rem;
-    /* left: 95vw; */
+.flags__item img {
     width: 3rem;
-    cursor: pointer;
-}
-.flags__item .imgEn{
-    z-index: 101;
-    position: fixed;
-    bottom: 65px;
-    right: 12rem;
-    width: 3rem;
+    max-width: min-content;
+    max-height: min-content;
     cursor: pointer;
 }
 
@@ -444,18 +437,14 @@ span {
     html {
         font-size: 65%;
     }
-    #flags .flags__item .imgEs {                     
-        margin-right: 45px;
-        margin-bottom: 10px;
-    }
-    #flags .flags__item .imgEn {
-        margin-right: 45px;
-        margin-bottom: 10px;
-    }
+    .container-funciones {
+        bottom: 10px;
+        right: 10px; 
+     }
 }
 @media (max-width: 1200px) {
     html {
-        font-size: 55%;
+        font-size: 60%;
     }
 }
 @media (max-width: 991px) {
@@ -502,6 +491,7 @@ span {
    }
    .home {
     flex-direction: column;
+    margin-left: 90px;
    }
    .home-content h3 {
     font-size: 2.6rem;
@@ -512,6 +502,7 @@ span {
    .home-img img {
     width: 60vw;
     margin-top: 4rem;
+    margin: auto;
    }
    .about {
     flex-direction: column-reverse;
@@ -541,7 +532,9 @@ span {
     .contact form .input-box input {
         width: 100%;
     }
-   
+    .home-img img {
+        width: 90vw;
+    }
 }
 @media (max-width: 365px) {
     .home-img img {
