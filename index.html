@@ -3,12 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Guille Depetris-Portfolio</title>
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+          
   </head>
   <body>
     <header class="header">
@@ -17,22 +19,24 @@
       <nav class="navbar">
         <a href="#home" class="active">Home</a>
         <a href="#about">About</a>
-        <a href="#services">Services</a>
+        <a href="#tecnologias">Tecnologias</a>
         <a href="#portfolio">Portfolio</a>
         <a href="#contact">Contact</a>
       </nav>
     </header>
-    <i class="bx bxs-sun" id="icon-sun" style="display: inline;"></i>
-    <i class="bx bxs-moon" id="icon-moon" style="display: none;"></i>
-    
-    <div id="flags" class="flags">
+      <div id="flags" class="flags">
       <div class="flags__item" data-language="es">
-        <img src="./images/es.png" alt="" class="imgEs">
+          <img src="./images/es.png" alt="" class="imgEs">
+        </div>
+        <div class="flags__item" data-language="en">
+          <img src="./images/en.png" alt="" class="imgEn">
+        </div>
       </div>
-      <div class="flags__item" data-language="en">
-        <img src="./images/en.png" alt="" class="imgEn">
-      </div>
-    </div>
+      <i class="bx bxs-sun" id="icon-sun" style="display: inline;"></i>
+      <i class="bx bxs-moon" id="icon-moon" style="display: none;"></i>
+      
+
+   
     <!-- home section desing -->
     <section class="home" id="home">
       <div class="home-content">
@@ -71,68 +75,82 @@
     </section>
 
     <!-- services -->
-    <section class="services" id="services">
-      <h2 class="heading"> <span>Services</span></h2>
-      <div class="services-container">
-        <div class="services-box">
-          <i class="bx bx-code-alt"></i>
-          <h3>Web Development</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem,
-            quod minima iure odit minus magni enim maiores dolorum beatae
-            voluptates.
-          </p>
-          <a href="#" class="btn">Read More</a>
+    <section class="tecnologias" id="tecnologias">
+      <h2 class="heading"><span>Tecnologias</span> & <span>Habilidades</span></h2>
+      <div class="tecnologias-container">
+         <div class="tecnologias-box">          
+          <i class="devicon-html5-plain colored"></i>
+            <h4>HTML</h4>
         </div>
-
-        <div class="services-box">
-          <i class="bx bxs-paint"></i>
-          <h3>Graphic Design</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem,
-            quod minima iure odit minus magni enim maiores dolorum beatae
-            voluptates.
-          </p>
-          <a href="#" class="btn">Read More</a>
+        <div class="tecnologias-box">
+          <i class="devicon-css3-plain colored"></i>
+          <h4>css</h4>
         </div>
+        <div class="tecnologias-box">
+          <i class='bx bxl-javascript'></i>
+          <h4>JavaScript</h4>
+        </div>
+        <div class="tecnologias-box">       
+          <i class="devicon-csharp-plain colored"></i>
+          <h4>C#</h4>
 
-        <div class="services-box">
-          <i class="bx bx-bar-chart-alt"></i>
-          <h3>Digital Marketing</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem,
-            quod minima iure odit minus magni enim maiores dolorum beatae
-            voluptates.
-          </p>
-          <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="tecnologias-box">
+          <i class="devicon-git-plain colored"></i>
+          <h4>Git</h4>
+        </div>
+        <div class="tecnologias-box">
+          <i class="devicon-github-original colored"></i>
+          <h4>GitHub</h4>
+        </div>
+        <div class="tecnologias-box">
+          <i class="devicon-vuejs-plain colored"></i>        
+          <h4>Vuejs</h4>
+        </div>
+        <div class="tecnologias-box">
+          <img src="./images/chartjs.png" alt="chartjs" >
+          <h4>HTML</h4>
+        </div>
+        <div class="tecnologias-box">
+          <i class="devicon-dotnetcore-plain"></i>     
+          <h4>ASP.Net Core</h4>
+        </div>
+        <div class="tecnologias-box">
+          <i class="devicon-docker-plain colored"></i>        
+          <h4>Docker</h4>
+        </div>
+        <div class="tecnologias-box">
+          <i class="devicon-postman-plain colored"></i>       
+          <h4>Postman</h4>
+        </div>
+        <div class="tecnologias-box">
+          <i class='bx bxl-html5'></i>
+          <h4>HTML</h4>
         </div>
       </div>
     </section>
 
     <!-- portfolio  -->
     <section class="portfolio" id="portfolio">
-      <h2 class="heading">Latest <span>Proyect</span></h2>
+      <h2 class="heading" data-section="Proyects" data-value="titulo-proyects">Mis <span>Proyectos</span></h2>
       <div class="portfolio-container">
-
         <div class="portfolio-box">
-          <img src="images/portfolio1.jpg" alt="" />
+          <img src="images/login.png" alt="" />
           <div class="portfolio-layer">
-            <h4>Web Desing</h4>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae,
-              mollitia.
+            <h4 data-section="Proyects" data-value="first-proyect-name">Billetera de Criptomonedas</h4>
+            <p data-section="Proyects" data-value="first-proyect-descripcion">
+              Compra y venta de Criptomonedas, convertidor de monedas, analisis de inversion, etc.
             </p>
-            <a href="#"><i class='bx bx-link-external'></i></a>
+            <a href="https://trabajo-final-lab3.vercel.app/" target="_blank"><i class='bx bx-link-external'></i></a>
           </div>
         </div>
 
         <div class="portfolio-box">
             <img src="images/portfolio2.jpg" alt="" />
             <div class="portfolio-layer">
-              <h4>Web Desing</h4>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae,
-                mollitia.
+              <h4 data-section="Proyects" data-value="second-proyect-name">Portafolio Personal</h4>
+              <p data-section="Proyects" data-value="second-proyect-descripcion">
+                Mi portafolio: diseño moderno, proyectos web, y habilidades destacadas.
               </p>
               <a href="#"><i class='bx bx-link-external'></i></a>
             </div>

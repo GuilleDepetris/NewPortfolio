@@ -26,11 +26,11 @@
         "last-services-boton": "Read More"
     },
     "Proyects": {
-        "titulo-proyects":"Latest <span>Proyect</span>",
-        "first-proyect-name": "Web Development",
-        "first-proyect-descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, mollitia.",
-        "second-proyect-name": "Web Development",
-        "second-proyect-descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, mollitia.",
+        "titulo-proyects":"My <span>Projects</span>",
+        "first-proyect-name": "Cryptocurrency Wallet",
+        "first-proyect-descripcion": "Buying and selling cryptocurrencies, currency converter, investment analysis, etc.",
+        "second-proyect-name": "Personal Portfolio",
+        "second-proyect-descripcion": "My portfolio: modern design, web projects, and featured skills.",
         "lastproyect-name": "Web Development",
         "last-proyect-descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, mollitia."
     },

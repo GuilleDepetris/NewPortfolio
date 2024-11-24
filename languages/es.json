@@ -9,28 +9,19 @@
     },
     "About": {
         "titulo-about":"Sobre <span>Mi</span>",
-        "trabajo": "Desarrollador frontend",
+        "trabajo": "Full-Stack Developer",
         "descripcion": "¡Hola! Soy Guillermo Depetris, tengo 22 años y soy graduado de la Universidad Tecnológica Nacional (UTN), donde estudié la Tecnicatura en Programación. Me destaco por mi habilidad para liderar proyectos, trabajar en equipo, aprender nuevas tecnologías rápidamente y desarrollar soluciones que cumplen con las necesidades del cliente. Fuera del código, disfruto explorar nuevas herramientas y metodologías que me permitan crecer tanto profesional como personalmente.",
         "value-btn": "Leer Más"
     },
-    "Services": {
-        "titulo-services":"Mis <span>Servicios</span>",
-        "first-services-name": "Desarrollo web",
-        "first-services-descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, quod minima iure odit minus magni enim maiores dolorum beatae voluptates.",
-        "first-services-boton": "Leer Más",
-        "second-services-name": "Diseño gráfico",
-        "second-services-descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, quod minima iure odit minus magni enim maiores dolorum beatae voluptates.",
-        "second-services-boton": "Leer Más",
-        "last-services-name": "Marketing digital",
-        "last-services-descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, quod minima iure odit minus magni enim maiores dolorum beatae voluptates.",
-        "last-services-boton": "Leer Más"
+    "Tecnologias": {
+        "titulo-tec": "Tecnologias & Habilidades"
     },
     "Proyects": {
-        "titulo-proyects":"Latest <span>Proyect</span>",
-        "first-proyect-name": "Web Development",
-        "first-proyect-descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, mollitia.",
-        "second-proyect-name": "Web Development",
-        "second-proyect-descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, mollitia.",
+        "titulo-proyects":"Mis <span>Proyectos</span>",
+        "first-proyect-name": "Billetera de Criptomonedas",
+        "first-proyect-descripcion": "Compra y venta de Criptomonedas, convertidor de monedas, analisis de inversion, etc.",
+        "second-proyect-name": "Portafolio Personal",
+        "second-proyect-descripcion": "Mi portafolio: diseño moderno, proyectos web, y habilidades destacadas.",
         "lastproyect-name": "Web Development",
         "last-proyect-descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, mollitia."
     },
