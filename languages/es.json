@@ -1,4 +1,11 @@
 {
+    "header": {
+        "home": "Inicio",
+        "about": "Sobre Mi",
+        "tecnologias": "Tecnologias",
+        "portfolio": "Proyectos",
+        "contact": "Contacto"
+    },
     "home": {
         "saludo":"Hola! Yo soy",
         "nombre": "Guillermo Depetris",

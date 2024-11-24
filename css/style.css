@@ -83,14 +83,13 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* padding: 50px; */
 }
 .home-content {
   display: flex;
   justify-content: space-between; 
   align-items: center;
   width: 90%;
-  flex-wrap: wrap;
+  
 }
 .home-content h3 {
   font-size: 3.2rem;
@@ -428,18 +427,31 @@ span {
 }
 
 /* BREAKPOINTS */
+@media (max-width: 1600px) {
+    .home-content {
+        flex-wrap: wrap;
+      
+    }
+    .home-content .container-info{
+        margin: auto;
+       
+    }
+    .home-img {
+        margin: auto;
+    }
+}
 @media (max-width: 1400px) {
     html {
         font-size: 65%;
     }
-        #flags .flags__item .imgEs {                     
-            margin-right: 45px;
-            margin-bottom: 10px;
-        }
-        #flags .flags__item .imgEn {
-            margin-right: 45px;
-            margin-bottom: 10px;
-        }
+    #flags .flags__item .imgEs {                     
+        margin-right: 45px;
+        margin-bottom: 10px;
+    }
+    #flags .flags__item .imgEn {
+        margin-right: 45px;
+        margin-bottom: 10px;
+    }
 }
 @media (max-width: 1200px) {
     html {
@@ -452,9 +464,6 @@ span {
     }
     section {
         padding: 10rem 3% 2rem;
-    }
-    .services {
-        padding-bottom: 7rem;
     }
     .portfolio {
         padding-bottom: 7rem;
@@ -501,7 +510,7 @@ span {
     font-size: 5rem;
    }
    .home-img img {
-    width: 70vw;
+    width: 60vw;
     margin-top: 4rem;
    }
    .about {
@@ -510,9 +519,6 @@ span {
    .about img {
     width: 70vw;
     margin-top: 4rem;
-   }
-   .services h2 {
-    margin-bottom: 3rem;
    }
    .portfolio h2 {
     margin-bottom: 3rem;
@@ -535,6 +541,7 @@ span {
     .contact form .input-box input {
         width: 100%;
     }
+   
 }
 @media (max-width: 365px) {
     .home-img img {
@@ -550,4 +557,8 @@ span {
         text-align: center;
         margin-top: 2rem;
     }
+
+}
+.footer-text {
+    margin: auto;
 }
