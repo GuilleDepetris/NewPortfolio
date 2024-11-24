@@ -21,7 +21,7 @@
         "value-btn": "Leer Más"
     },
     "Tecnologias": {
-        "titulo-tec": "Tecnologias & Habilidades"
+        "titulo-tec": "Tecnologias <span>&</span> Habilidades"
     },
     "Proyects": {
         "titulo-proyects":"Mis <span>Proyectos</span>",

@@ -13,24 +13,15 @@
         "yo-soy": "Specialist in web development with modern technologies, I build efficient and functional <br> digital solutions.",
         "explora": "¡Explore my work!",
         "value": "Download CV"
-    },
+    }, 
     "About": {
         "titulo-about":"About <span>Me</span>",
         "trabajo": "Full-Stack Developer",
         "descripcion": "Hello! I'm Guillermo Depetris, I'm 22 years old and I graduated from the Universidad Tecnológica Nacional (UTN), where I studied the Programming Technician's Degree. I stand out for my ability to lead projects, work in a team, learn new technologies quickly and develop solutions that meet the client's needs. Outside of coding, I enjoy exploring new tools and methodologies that allow me to grow both professionally and personally.",
         "value-btn": "Read More"
     },
-    "Services": {
-        "titulo-services":"Our <span>Services</span>",
-        "first-services-name": "Web Development",
-        "first-services-descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, quod minima iure odit minus magni enim maiores dolorum beatae voluptates.",
-        "first-services-boton": "Read More",
-        "second-services-name": "Graphic Design",
-        "second-services-descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, quod minima iure odit minus magni enim maiores dolorum beatae voluptates.",
-        "second-services-boton": "Read More",
-        "last-services-name": "Digital Marketing",
-        "last-services-descripcion": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, quod minima iure odit minus magni enim maiores dolorum beatae voluptates.",
-        "last-services-boton": "Read More"
+    "Tecnologias": {
+        "titulo-tec": "Technologies <span>and</span> Skills"
     },
     "Proyects": {
         "titulo-proyects":"My <span>Projects</span>",
